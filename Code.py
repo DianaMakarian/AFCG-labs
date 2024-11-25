@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import math
 import numpy as np
 
 #функція для зчитування датасету
@@ -85,8 +84,6 @@ def main():
 
     #зчитуємо датасет
     points = read_dataset(dataset_file)
-    
-    # plot_points_and_save(points, output_file)
 
     #обертаємо точки
     rotated_points = rotate_points(points, center, angle)
